@@ -1,10 +1,9 @@
 #pragma semicolon 1
 #include <sourcemod>
 #include <morecolors>
-
 #pragma newdecls required
 
-public const char sCodes[][] = {"\x01", "\x02", "\x03", "\x04", "\x05", "\x06", "\x07", "\x08"};
+char sCodes[][] = {"\x01", "\x02", "\x03", "\x04", "\x05", "\x06", "\x07", "\x08"};
 
 public Plugin myinfo = 
 {
